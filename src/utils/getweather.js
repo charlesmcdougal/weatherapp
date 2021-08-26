@@ -16,7 +16,8 @@ const getWeather = (lat, long, callback) => {
                 temperature: body.current.temperature,
                 feelsLike: body.current.feelslike,
                 precipitation: body.current.precip,
-                cloudCover: body.current.cloudcover
+                cloudCover: body.current.cloudcover,
+                humidity: body.current.humidity
             });
         }
     });

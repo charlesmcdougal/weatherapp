@@ -61,7 +61,7 @@ app.get('/weather', (req, res) => {
                 if (error){
                     return res.send({error})
                 } else {
-                    return res.send({ location, description, temperature, feelsLike, precipitation, cloudCover })
+                    return res.send({ location, description, temperature, feelsLike, precipitation, cloudCover, humidity })
                 }
             });
         }

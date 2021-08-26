@@ -14,7 +14,7 @@ weatherForm.addEventListener('submit', (event) => {
                 messageOne.textContent = data.error
             } else {
                 messageOne.textContent = `Showing the weather report for ${data.location}:`
-                messageTwo.textContent = `It is ${data.description.toLowerCase()}. The temperature is currently ${data.temperature}°F, but feels like ${data.feelsLike}°F. `
+                messageTwo.textContent = `It is ${data.description.toLowerCase()}. The temperature is currently ${data.temperature}°F, but feels like ${data.feelsLike}°F. The current humidity is ${data.humidity}\%.`
             }
         })
     })
