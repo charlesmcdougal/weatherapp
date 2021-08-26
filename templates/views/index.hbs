@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="/css/main.css" >
+    <link rel="icon" href="/static/weather.png">
+    <script src="/js/main.js" defer></script>
+    <title>NodeJS Course</title>
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p>Use this site to get your personal weather forecast.</p>
+        <form>
+            <input placeholder="location">
+            <button>Search</button>
+        </form>
+        <p id="message-one"></p>
+        <p id="message-two"></p>
+    </div>
+    {{>footer}}
+</body>
+
+</html>

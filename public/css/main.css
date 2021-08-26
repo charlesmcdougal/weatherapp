@@ -1,0 +1,55 @@
+body {
+    color: rgb(59, 59, 59);
+    font-family: montserrat, arial, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+header a {
+    color:rgb(94, 94, 94);
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+footer {
+    color:rgb(189, 189, 189);
+    border-top: 1px solid rgb(94, 94, 94);
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+.portrait {
+    width: 400px;
+}
+
+input {
+    border: 1px solid rgb(189, 189, 189);
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid rgb(122, 122, 122);
+    background: rgb(122, 122, 122);
+    color:rgb(255, 255, 255);
+    padding: 8px;
+}
