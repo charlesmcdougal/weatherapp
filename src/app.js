@@ -41,8 +41,7 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help',
-        name: 'Charles McDougal',
-        content: 'Please contact me at <a href="mailto:charlesmcdougal@gmail.com">charlesmcdougal@gmail.com</a> if there are any issues with the site.'
+        name: 'Charles McDougal'
     })
 })
 
